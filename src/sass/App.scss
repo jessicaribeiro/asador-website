@@ -1,4 +1,7 @@
-@import 'layout/navigationBar';
+@import 'src/sass/layout/navigation-bar';
+@import 'src/sass/layout/header';
+
+@import 'src/sass/components/bg-video';
 
 .App {
   text-align: center;
