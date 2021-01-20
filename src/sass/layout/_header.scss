@@ -1,3 +1,5 @@
+@import 'src/sass/abstracts/mixins'; // TODO - ver como chamar globalmente este mixin
+
 .header {
   height: 95vh;
   //background-image: url(../img/header.jpg);
@@ -28,10 +30,9 @@
   //}
 
 
-  // TODO
-  //@include respond(phone) {
-  //  height: 30vh;
-  //}
+  @include respond(phone) {
+    height: 30vh;
+  }
 
   &__logo-box {
     text-align: center;
@@ -40,23 +41,21 @@
     left: 35%;
     //margin-bottom: 8rem;
 
-    //TODO
-    //@include respond(phone) {
-    //  margin-left: auto;
-    //  margin-right: auto;
-    //  display: inline-block;
-    //}
+    @include respond(phone) {
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+    }
   }
 
   &__logo {
     width: 45rem;
     height: 45rem;
 
-    //TODO
-    //@include respond(phone) {
-    //  width: 70%;
-    //  height: 50%;
-    //}
+    @include respond(phone) {
+      width: 70%;
+      height: 50%;
+    }
   }
 
   &__text-box {
