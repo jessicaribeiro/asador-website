@@ -1,7 +1,20 @@
 {
   "menu": "Menu",
   "reviews": "Reviews",
-  "contact&schedule": "Contacto y Horário",
+  "contact_and_schedule": "Contacto y Horário",
   "address": "Address",
+  "book_table": "Book a table",
+  "special_menu": "Special Menu",
+  "special_menu_price": "All for 19€ /person",
+  "sausage_with_cheese": "Sausage with cheese",
+  "scrambled_cod" : "Scrambled Cod",
+  "dish_of_the_day" : "Dish of the day",
+  "roasted_red_sausage" : "Roasted Red Sausage",
+  "grilled_chicken" : "Grilled Chicken",
+  "grilled_lamb": "Grilled Lamb",
+  "grilled_pork": "Grilled Pork",
+  "grilled_veal": "Grilled Veal",
+  "variety_of_desserts": "Variety of desserts",
+  "coffee_and_liqueur": "Coffee & Liqueur",
   "Welcome to React": "Welcome to React and react-i18next"
 }

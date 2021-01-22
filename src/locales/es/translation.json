@@ -1,7 +1,20 @@
 {
   "menu": "Menú",
   "reviews": "Opiniones",
-  "contact&schedule": "Contacto y Horário",
+  "contact_and_schedule": "Contacto y Horário",
   "address": "Localización",
+  "book_table": "Reservar mesa",
+  "special_menu": "Menú Especial",
+  "special_menu_price": "Todo por 19€ /persona",
+  "sausage_with_cheese": "Embutido con queso",
+  "scrambled_cod" : "Revuelto de Bacalao",
+  "dish_of_the_day" : "Plato del día",
+  "roasted_red_sausage" : "Longaniza asada",
+  "grilled_chicken" : "Pollo asado",
+  "grilled_lamb": "Cordero asado",
+  "grilled_pork": "Cerdo asado",
+  "grilled_veal": "Ternera asado",
+  "variety_of_desserts": "Postres variados",
+  "coffee_and_liqueur": "Café y Chupito",
   "Welcome to React": "Willkommen bei react und react-i18next"
 }

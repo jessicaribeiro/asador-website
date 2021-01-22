@@ -5,6 +5,7 @@ import { withNamespaces } from 'react-i18next';
 // import logo from '../img/logo-big.png';
 import {FaCaretDown} from 'react-icons/fa';
 import LanguageSelector from "./LanguageSelector";
+import NavigationBarEntry from "./NavigationBarEntry";
 
 
 function NavigationBar({t, changeLanguage}) {
@@ -16,38 +17,12 @@ function NavigationBar({t, changeLanguage}) {
 
                         <nav className="navbar__nav upper">
                             <ul>
-                                <li className="haschildren">
-                                    <a
-                                        href="https://www.lechomat.com/en/history/"
-                                        className="js-subnav"
-                                        data-subnav="item3044">
-                                        {t('menu')}
-                                    </a>
-                                </li>
-                                <li className="haschildren">
-                                    <a
-                                        href="https://www.lechomat.com/en/materials/"
-                                        className="js-subnav"
-                                        data-subnav="item3047">
-                                        {t('reviews')}
-                                    </a>
-                                </li>
-                                <li className="haschildren">
-                                    <a
-                                        href="https://www.lechomat.com/en/materials/"
-                                        className="js-subnav"
-                                        data-subnav="item3047">
-                                        {t('contact&schedule')}
-                                    </a>
-                                </li>
-                                <li className="haschildren">
-                                    <a
-                                        href="https://www.lechomat.com/en/materials/"
-                                        className="js-subnav"
-                                        data-subnav="item3047">
-                                        {t('address')}
-                                    </a>
-                                </li>
+                                {/*TODO colocar a apontar para as seccoes certas*/}
+                                <NavigationBarEntry href="https://www..com/en/history/" label='menu'/>
+                                <NavigationBarEntry href="https://www..com/en/history/" label='reviews'/>
+                                <NavigationBarEntry href="https://www..com/en/history/" label='contact_and_schedule'/>
+                                <NavigationBarEntry href="https://www..com/en/history/" label='address'/>
+                                <NavigationBarEntry href="https://www..com/en/history/" label='book_table' focus/>
                             </ul>
                         </nav>
 

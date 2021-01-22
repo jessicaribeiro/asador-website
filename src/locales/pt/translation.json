@@ -1,7 +1,20 @@
 {
   "menu": "Menu",
   "reviews": "Opiniões",
-  "contact&schedule": "Contacto e Horário",
+  "contact_and_schedule": "Contacto e Horário",
   "address": "Localização",
+  "book_table": "Reservar mesa",
+  "special_menu": "Menu Especial",
+  "special_menu_price": "Tudo por 19€ /pessoa",
+  "sausage_with_cheese": "Embutidos com queijo",
+  "scrambled_cod" : "Bacalhau com ovo mexido",
+  "dish_of_the_day" : "Prato do dia",
+  "roasted_red_sausage" : "Linguiça grelhada",
+  "grilled_chicken" : "Frango grelhado",
+  "grilled_lamb": "Cordeiro grelhado",
+  "grilled_pork": "Carne de porco grelhada",
+  "grilled_veal": "Vitela grelhada",
+  "variety_of_desserts": "Variedade de sobremesas",
+  "coffee_and_liqueur": "Café e Digestivo",
   "Welcome to React": "Willkommen bei react und react-i18next"
 }

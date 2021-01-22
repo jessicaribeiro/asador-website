@@ -5,6 +5,7 @@ import i18n from './i18n';
 // import logo from './logo.svg';
 import './sass/App.scss';
 import Header from "./components/Header";
+import SectionAbout from "./components/SectionAbout";
 
 function App({t}) {
     const handleScroll = (event) => {
@@ -38,7 +39,9 @@ function App({t}) {
     return (
             <div className="App">
                 <Header changeLanguage={changeLanguage}/>
-                <h1>{t('Welcome to React')}</h1>
+                <main>
+                    <SectionAbout/>
+                </main>
             </div>
     );
 }

@@ -1,3 +1,4 @@
+@import 'src/sass/abstracts/variables'; // TODO - ver como chamar globalmente este mixin
 
 .navbar {
   position: fixed;
@@ -43,7 +44,7 @@
 
   &__nav {
     font-family: Belleza;
-    font-size: 17px;
+    font-size: 19px;
     letter-spacing: 3.3px;
 
     & ul {
@@ -60,6 +61,12 @@
     & a {
       text-decoration: none;
       color: currentColor;
+
+      &:hover {
+        //background-color: #61dafb;
+        //font-size: 21px;
+        font-weight: bolder;
+      }
     }
 
   }
@@ -81,7 +88,7 @@
     }
 
     &.scroll {
-      top: 23px;
+      //top: 23px;
       height: 27px;
     }
 
@@ -117,11 +124,15 @@
 
 }
 
+.focus-button {
+  background-color: $color-red;
+  padding: 10px;
+  color: $color-white !important;
+}
 
 .scroll {
   background-color: #f1f1f1;
-  height: 67px;
-  color: #032a58;
+  color: $color-grey-dark;
   border-bottom: 1px solid #ebebeb;
 }
 
