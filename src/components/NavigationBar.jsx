@@ -1,79 +1,83 @@
-import React, {Component, useState} from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 // import video from '../img/video.mp4';
 // import logo from '../img/logo-big.png';
-import { FaCaretDown } from 'react-icons/fa';
-import LanguageSwitcher from "./LanguageSwitcher";
+import {FaCaretDown} from 'react-icons/fa';
+import LanguageSelector from "./LanguageSelector";
 
 
-function NavigationBar () {
-        const [language, setLanguage] = useState('es');
+function NavigationBar({changeLanguage}) {
+    return (
+        <section className="sticky">
+            <div className="sticky__container">
+                <div className="sticky__in">
+                    <div>
 
-        return (
-            // <div className="topnav">
-            //     <a className="active" href="#home">Home</a>
-            //     <a href="#news">News</a>
-            //     <a href="#contact">Contact</a>
-            //     <a href="#about">About</a>
-            // </div>
-            <section className="sticky">
-                <div className="sticky__container">
-                    <div className="sticky__in">
-                        <div>
-                            <nav className="sticky__nav upper">
-                                <ul>
-                                    <li className="haschildren">
-                                        <a
-                                            href="https://www.lechomat.com/en/history/"
-                                            className="js-subnav"
-                                            data-subnav="item3044">
-                                            Menú
-                                        </a>
-                                    </li>
-                                    <li className="haschildren">
-                                        <a
-                                            href="https://www.lechomat.com/en/materials/"
-                                            className="js-subnav"
-                                            data-subnav="item3047">
-                                            Opiniones
-                                        </a>
-                                    </li>
-                                    <li className="haschildren">
-                                        <a
-                                            href="https://www.lechomat.com/en/materials/"
-                                            className="js-subnav"
-                                            data-subnav="item3047">
-                                            Contacto y Horário
-                                        </a>
-                                    </li>
-                                    <li className="haschildren">
-                                        <a
-                                            href="https://www.lechomat.com/en/materials/"
-                                            className="js-subnav"
-                                            data-subnav="item3047">
-                                            Localización
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
+                        <nav className="sticky__nav upper">
+                            <ul>
+                                <li className="haschildren">
+                                    <a
+                                        href="https://www.lechomat.com/en/history/"
+                                        className="js-subnav"
+                                        data-subnav="item3044">
+                                        Menú
+                                    </a>
+                                </li>
+                                <li className="haschildren">
+                                    <a
+                                        href="https://www.lechomat.com/en/materials/"
+                                        className="js-subnav"
+                                        data-subnav="item3047">
+                                        Opiniones
+                                    </a>
+                                </li>
+                                <li className="haschildren">
+                                    <a
+                                        href="https://www.lechomat.com/en/materials/"
+                                        className="js-subnav"
+                                        data-subnav="item3047">
+                                        Contacto y Horário
+                                    </a>
+                                </li>
+                                <li className="haschildren">
+                                    <a
+                                        href="https://www.lechomat.com/en/materials/"
+                                        className="js-subnav"
+                                        data-subnav="item3047">
+                                        Localización
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
 
                     </div>
-                    <LanguageSwitcher
-                        lang={this.state.lang}
-                        handleChangeLanguage={this.changeLanguageHandler}
-                    />
-                    {/*<div className="sticky__lang">*/}
-                    {/*    <a href="#" className="js-subnav upper" data-subnav="lang">*/}
-                    {/*        en                             <FaCaretDown className="icon icon-arrow-select"/>*/}
+                    <LanguageSelector changeLanguage={changeLanguage}/>
 
-                    {/*        /!* <svg className="icon icon-arrow-select">*!/*/}
-                    {/*        /!*</svg>*!/*/}
-                    {/*    </a>*/}
-                    {/*</div>*/}
                 </div>
-            </section>
 
-        );
+
+                {/*<div className="sticky__lang">*/}
+                {/*    <a href="#" className="js-subnav upper" data-subnav="lang" onClick={() => setShowMenu(!showMenu)}>*/}
+                {/*        en*/}
+                {/*        <FaCaretDown className="icon icon-arrow-select"/>*/}
+                {/*    </a>*/}
+                {/*    { showMenu && (*/}
+                {/*                <div className="lang-menu">*/}
+                {/*                    <a> Menu item 1 </a>*/}
+                {/*                    <a> Menu item 2 </a>*/}
+                {/*                    <a> Menu item 3 </a>*/}
+                {/*                </div>*/}
+                {/*            )*/}
+
+                {/*    }*/}
+                {/*    /!*<a href="#" className="js-subnav upper" data-subnav="lang">*!/*/}
+                {/*    /!*    en    <FaCaretDown className="icon icon-arrow-select"/>*!/*/}
+
+                {/*    /!*</a>*!/*/}
+                {/*</div>*/}
+            </div>
+        </section>
+
+    );
 }
 
 export default NavigationBar;

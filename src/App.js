@@ -1,11 +1,12 @@
 import React, {useEffect} from "react";
+import { withNamespaces } from 'react-i18next';
+import i18n from './i18n';
 
 // import logo from './logo.svg';
 import './sass/App.scss';
 import Header from "./components/Header";
-import ImportScript from "./components/ImportScript";
 
-function App() {
+function App({t}) {
     const handleScroll = (event) => {
         if (window.scrollY > 20) {
             document.querySelector(".sticky").className = "sticky scroll";
@@ -20,6 +21,10 @@ function App() {
         }
     };
 
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+    };
+
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
 
@@ -31,11 +36,11 @@ function App() {
 
 
     return (
-    <div className="App">
-        <Header/>
-
-    </div>
-  );
+            <div className="App">
+                <Header changeLanguage={changeLanguage}/>
+                <h1>{t('Welcome to React')}</h1>
+            </div>
+    );
 }
 
-export default App;
+export default withNamespaces() (App);
