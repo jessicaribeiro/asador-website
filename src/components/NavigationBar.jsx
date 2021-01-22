@@ -1,11 +1,13 @@
 import React, {useState, useEffect, useContext} from 'react';
+import { withNamespaces } from 'react-i18next';
+
 // import video from '../img/video.mp4';
 // import logo from '../img/logo-big.png';
 import {FaCaretDown} from 'react-icons/fa';
 import LanguageSelector from "./LanguageSelector";
 
 
-function NavigationBar({changeLanguage}) {
+function NavigationBar({t, changeLanguage}) {
     return (
         <section className="sticky">
             <div className="sticky__container">
@@ -19,7 +21,7 @@ function NavigationBar({changeLanguage}) {
                                         href="https://www.lechomat.com/en/history/"
                                         className="js-subnav"
                                         data-subnav="item3044">
-                                        Menú
+                                        {t('menu')}
                                     </a>
                                 </li>
                                 <li className="haschildren">
@@ -27,7 +29,7 @@ function NavigationBar({changeLanguage}) {
                                         href="https://www.lechomat.com/en/materials/"
                                         className="js-subnav"
                                         data-subnav="item3047">
-                                        Opiniones
+                                        {t('reviews')}
                                     </a>
                                 </li>
                                 <li className="haschildren">
@@ -35,7 +37,7 @@ function NavigationBar({changeLanguage}) {
                                         href="https://www.lechomat.com/en/materials/"
                                         className="js-subnav"
                                         data-subnav="item3047">
-                                        Contacto y Horário
+                                        {t('contact&schedule')}
                                     </a>
                                 </li>
                                 <li className="haschildren">
@@ -43,7 +45,7 @@ function NavigationBar({changeLanguage}) {
                                         href="https://www.lechomat.com/en/materials/"
                                         className="js-subnav"
                                         data-subnav="item3047">
-                                        Localización
+                                        {t('address')}
                                     </a>
                                 </li>
                             </ul>
@@ -80,7 +82,7 @@ function NavigationBar({changeLanguage}) {
     );
 }
 
-export default NavigationBar;
+export default withNamespaces() (NavigationBar);
 
 // <section className="sticky">
 //     <div className="sticky__container">

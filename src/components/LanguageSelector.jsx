@@ -32,6 +32,20 @@ function LanguageSelector({changeLanguage}) {
         };
     }, []);
 
+    const languages = [
+        {code: 'en', name: 'English'},
+        {code: 'es', name: 'Spanish'},
+        {code: 'pt', name: 'Portuguese'}
+    ];
+
+    const options = languages.map(lang => {
+        if (lang.code !== getLanguage()) {
+            return <li key={lang.code}
+                       onClick={() => handleChangeLanguage(lang.code)}
+            >{lang.name}</li>
+        }
+    });
+
 
     return (
         <div className="sticky__lang" ref={node}>
@@ -44,13 +58,12 @@ function LanguageSelector({changeLanguage}) {
                 {getLanguage()} <FaCaretDown
                 className="icon icon-arrow-select"/>
             </a>
-            {showMenu && (<div className="dropdown">
-                <ul>
-                    <li onClick={() => handleChangeLanguage('en')}>English</li>
-                    <li onClick={() => handleChangeLanguage('es')}>Spanish</li>
-                    <li onClick={() => handleChangeLanguage('pt')}>Portuguese</li>
-                </ul>
-            </div>)
+            {showMenu && (
+                <div className="dropdown">
+                    <ul>
+                        {options}
+                    </ul>
+                </div>)
             }
         </div>
     )

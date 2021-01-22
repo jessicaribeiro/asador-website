@@ -1,3 +1,7 @@
 {
+  "menu": "Menu",
+  "reviews": "Reviews",
+  "contact&schedule": "Contacto y Horário",
+  "address": "Address",
   "Welcome to React": "Welcome to React and react-i18next"
 }
