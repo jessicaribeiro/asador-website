@@ -9,14 +9,14 @@ import Header from "./components/Header";
 function App({t}) {
     const handleScroll = (event) => {
         if (window.scrollY > 20) {
-            document.querySelector(".sticky").className = "sticky scroll";
-            document.querySelector(".sticky__in").className = "sticky__in scroll";
-            document.querySelector(".sticky__lang").className = "sticky__lang scroll";
+            document.querySelector(".navbar").className = "navbar scroll";
+            document.querySelector(".navbar__in").className = "navbar__in scroll";
+            document.querySelector(".navbar__lang").className = "navbar__lang scroll";
             // document.body.classList.add("scroll");
         } else {
-            document.querySelector(".sticky").className = "sticky";
-            document.querySelector(".sticky__in").className = "sticky__in";
-            document.querySelector(".sticky__lang").className = "sticky__lang";
+            document.querySelector(".navbar").className = "navbar";
+            document.querySelector(".navbar__in").className = "navbar__in";
+            document.querySelector(".navbar__lang").className = "navbar__lang";
             // document.body.classList.remove("scroll")
         }
     };

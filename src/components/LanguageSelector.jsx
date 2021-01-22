@@ -42,25 +42,27 @@ function LanguageSelector({changeLanguage}) {
         if (lang.code !== getLanguage()) {
             return <li key={lang.code}
                        onClick={() => handleChangeLanguage(lang.code)}
+                       className="navbar__lang-dropdown-li"
             >{lang.name}</li>
         }
+        return null;
     });
 
 
     return (
-        <div className="sticky__lang" ref={node}>
+        <div className="navbar__lang" ref={node}>
             <a
                 type="button"
                 data-subnav="lang"
                 className="js-subnav upper"
                 onClick={() => setShowMenu(!showMenu)}
             >
-                {getLanguage()} <FaCaretDown
-                className="icon icon-arrow-select"/>
+                {getLanguage()}
+                <FaCaretDown className="icon icon-arrow-select"/>
             </a>
             {showMenu && (
-                <div className="dropdown">
-                    <ul>
+                <div className="navbar__lang-dropdown">
+                    <ul className="navbar__lang-dropdown-ul">
                         {options}
                     </ul>
                 </div>)

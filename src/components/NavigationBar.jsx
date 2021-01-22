@@ -9,12 +9,12 @@ import LanguageSelector from "./LanguageSelector";
 
 function NavigationBar({t, changeLanguage}) {
     return (
-        <section className="sticky">
-            <div className="sticky__container">
-                <div className="sticky__in">
+        <section className="navbar">
+            <div className="navbar__container">
+                <div className="navbar__in">
                     <div>
 
-                        <nav className="sticky__nav upper">
+                        <nav className="navbar__nav upper">
                             <ul>
                                 <li className="haschildren">
                                     <a
@@ -57,7 +57,7 @@ function NavigationBar({t, changeLanguage}) {
                 </div>
 
 
-                {/*<div className="sticky__lang">*/}
+                {/*<div className="navbar__lang">*/}
                 {/*    <a href="#" className="js-subnav upper" data-subnav="lang" onClick={() => setShowMenu(!showMenu)}>*/}
                 {/*        en*/}
                 {/*        <FaCaretDown className="icon icon-arrow-select"/>*/}
@@ -84,11 +84,11 @@ function NavigationBar({t, changeLanguage}) {
 
 export default withNamespaces() (NavigationBar);
 
-// <section className="sticky">
-//     <div className="sticky__container">
-//         <div className="sticky__in hide-mobile">
+// <section className="navbar">
+//     <div className="navbar__container">
+//         <div className="navbar__in hide-mobile">
 //             <div>
-//                 <nav className="sticky__nav upper">
+//                 <nav className="navbar__nav upper">
 //                     <ul>
 //                         <li className="haschildren"><a
 //                             href="https://www.lechomat.com/en/history/"
@@ -114,7 +114,7 @@ export default withNamespaces() (NavigationBar);
 //
 //
 //             <div>
-//                 <nav className="sticky__nav upper">
+//                 <nav className="navbar__nav upper">
 //                     <ul>
 //                         <li><a href="https://press.lechomat.cz/"
 //                                className="js-subnav"
@@ -145,7 +145,7 @@ export default withNamespaces() (NavigationBar);
 //                 </nav>
 //             </div>
 //         </div>
-//         <div className="sticky__lang">
+//         <div className="navbar__lang">
 //             <a href="#" className="js-subnav upper" data-subnav="lang">en <svg
 //                 className="icon icon-arrow-select">
 //                 <use xlink:href="#icon-arrow-select"></use>
@@ -158,26 +158,7 @@ export default withNamespaces() (NavigationBar);
 // </section>
 
 
-// (enableOn = 991 < window.innerWidth) ? ($(".sticky").on("mouseenter mouseleave", ".js-subnav", function() {
-//     var t = $(this).attr("data-subnav")
-//         , e = $("#subnav-" + t)
-//         , i = $(".stickysubnav__item");
-//     $(".stickysubnav__item.is-active").length ? i.removeClass("is-active is-firstactive") : (i.removeClass("is-lastactive"),
-//         e.addClass("is-firstactive")),
-//         e.addClass("is-active")
-// }),
-//     $(".sticky").on("mouseleave", function() {
-//         var t = $(".stickysubnav__item");
-//         $(".stickysubnav__item.is-active").addClass("is-lastactive"),
-//             t.removeClass("is-active is-firstactive")
-//     })) : $(".sticky__lang").on("click", ".js-subnav", function(t) {
-//     var e = $(this).attr("data-subnav")
-//         , i = $("#subnav-" + e);
-//     document.body.classList.remove("mobilenav-is-open"),
-//         $("body").toggleClass("mobilelang-is-open"),
-//         i.toggleClass("is-active"),
-//         t.preventDefault()
-// });
+
 
 // enableOn = 300 < window.innerWidth;
 // var start = 1
