@@ -73,7 +73,7 @@
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(3, 5vw);
   grid-gap: 1px;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 
   @include respond(tab-port) {
     margin-bottom: 5rem;

@@ -1,11 +1,13 @@
 import React, {useEffect} from "react";
-import { withNamespaces } from 'react-i18next';
+import {withNamespaces} from 'react-i18next';
 import i18n from './i18n';
+
 
 // import logo from './logo.svg';
 import './sass/App.scss';
 import Header from "./components/Header";
-import SectionAbout from "./components/SectionAbout";
+import SectionAbout from "./components/SectionMenu";
+import ArrowDown from "./components/ArrowDown";
 
 function App({t}) {
     const handleScroll = (event) => {
@@ -37,13 +39,17 @@ function App({t}) {
 
 
     return (
-            <div className="App">
-                <Header changeLanguage={changeLanguage}/>
-                <main>
-                    <SectionAbout/>
-                </main>
-            </div>
+        <div className="App">
+            <Header changeLanguage={changeLanguage}/>
+            <ArrowDown color="white" section="menu"/>
+            <main>
+                <SectionAbout/>
+                <ArrowDown color="red" />
+
+            </main>
+
+        </div>
     );
 }
 
-export default withNamespaces() (App);
+export default withNamespaces()(App);

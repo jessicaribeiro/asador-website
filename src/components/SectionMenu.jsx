@@ -9,10 +9,10 @@ import Dish from "./Dish";
 import DishImage from "./DishImage";
 
 
-function SectionAbout({t}) {
+function SectionMenu({t}) {
     return (
 
-        <section className="section-about">
+        <section className="section-menu">
             <div className="u-center-text u-margin-bottom-medium">
                 <h2 className="heading-secondary">
                     {t('special_menu')}
@@ -57,4 +57,4 @@ function SectionAbout({t}) {
     );
 }
 
-export default withNamespaces()(SectionAbout);
+export default withNamespaces()(SectionMenu);
