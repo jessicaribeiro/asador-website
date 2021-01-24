@@ -18,11 +18,11 @@ function NavigationBar({t, changeLanguage}) {
                         <nav className="navbar__nav upper">
                             <ul>
                                 {/*TODO colocar a apontar para as seccoes certas*/}
-                                <NavigationBarEntry href="https://www..com/en/history/" label='menu'/>
-                                <NavigationBarEntry href="https://www..com/en/history/" label='reviews'/>
-                                <NavigationBarEntry href="https://www..com/en/history/" label='contact_and_schedule'/>
-                                <NavigationBarEntry href="https://www..com/en/history/" label='address'/>
-                                <NavigationBarEntry href="https://www..com/en/history/" label='book_table' focus/>
+                                <NavigationBarEntry section="menu" label='menu'/>
+                                <NavigationBarEntry section="reviews" label='reviews'/>
+                                <NavigationBarEntry section="contact_and_schedule" label='contact_and_schedule'/>
+                                <NavigationBarEntry section="address" label='address'/>
+                                <NavigationBarEntry section="book_table" label='book_table' focus/>
                             </ul>
                         </nav>
 

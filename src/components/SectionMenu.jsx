@@ -11,8 +11,7 @@ import DishImage from "./DishImage";
 
 function SectionMenu({t}) {
     return (
-
-        <section className="section-menu">
+        <section className="section-menu" id="menu">
             <div className="u-center-text u-margin-bottom-medium">
                 <h2 className="heading-secondary">
                     {t('special_menu')}

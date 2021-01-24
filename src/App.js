@@ -1,12 +1,9 @@
 import React, {useEffect} from "react";
 import {withNamespaces} from 'react-i18next';
 import i18n from './i18n';
-
-
-// import logo from './logo.svg';
 import './sass/App.scss';
 import Header from "./components/Header";
-import SectionAbout from "./components/SectionMenu";
+import SectionMenu from "./components/SectionMenu";
 import ArrowDown from "./components/ArrowDown";
 
 function App({t}) {
@@ -43,7 +40,7 @@ function App({t}) {
             <Header changeLanguage={changeLanguage}/>
             <ArrowDown color="white" section="menu"/>
             <main>
-                <SectionAbout/>
+                <SectionMenu />
                 <ArrowDown color="red" />
 
             </main>
