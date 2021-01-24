@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
-import video from "../img/video.mp4";
-import logo from "../img/logo-big.png";
+import React from 'react';
+import video from "../img/video-header.mp4";
+import logo from "../img/logo-name.png";
 import NavigationBar from "./NavigationBar";
 
 function Header({changeLanguage}) {

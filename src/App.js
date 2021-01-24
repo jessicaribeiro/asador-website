@@ -9,7 +9,7 @@ import SectionAbout from "./components/SectionAbout";
 
 function App({t}) {
     const handleScroll = (event) => {
-        if (window.scrollY > 20) {
+        if (window.scrollY > 500) {
             document.querySelector(".navbar").className = "navbar scroll";
             document.querySelector(".navbar__in").className = "navbar__in scroll";
             document.querySelector(".navbar__lang").className = "navbar__lang scroll";
