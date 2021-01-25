@@ -1,7 +1,7 @@
 {
   "menu": "Menu",
   "reviews": "Reviews",
-  "contact_and_schedule": "Contacto y Horário",
+  "schedule": "Horário",
   "address": "Address",
   "book_table": "Book a table",
   "special_menu": "Special Menu",
@@ -16,5 +16,6 @@
   "grilled_veal": "Grilled Veal",
   "variety_of_desserts": "Variety of desserts",
   "coffee_and_liqueur": "Coffee & Liqueur",
-  "clients_reviews": "Clients' Reviews"
+  "clients_reviews": "Clients' Reviews",
+  "see_more_reviews": "See more reviews"
 }

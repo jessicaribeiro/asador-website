@@ -1,7 +1,7 @@
 {
   "menu": "Menu",
   "reviews": "Opiniões",
-  "contact_and_schedule": "Contacto e Horário",
+  "schedule": "Horário",
   "address": "Localização",
   "book_table": "Reservar mesa",
   "special_menu": "Menu Especial",
@@ -16,5 +16,6 @@
   "grilled_veal": "Vitela grelhada",
   "variety_of_desserts": "Variedade de sobremesas",
   "coffee_and_liqueur": "Café e Digestivo",
-  "clients_reviews": "Opiniões dos nossos clientes"
+  "clients_reviews": "Opiniões dos nossos clientes",
+  "see_more_reviews": "Ver mais opiniões"
 }

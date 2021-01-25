@@ -1,0 +1,42 @@
+@import 'src/sass/abstracts/variables'; // TODO - ver como chamar globalmente este mixin
+
+
+.btn-text {
+  &:link,
+  &:visited {
+    font-size: $small-font-size;
+    color: $color-red;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid $color-white;
+    transition: all .2s;
+    background-color: transparent;
+    padding: 0.5rem;
+
+    @include respond(phone) {
+      font-size: $medium-font-size;
+    }
+  }
+
+  &:hover {
+    background-color: $color-red;
+    color: $color-white;
+    box-shadow: 0 1rem 2rem rgba($color-black, .15);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+    transform: translateY(0);
+  }
+
+  &-icon {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: inherit;
+    fill: currentColor;
+    position: relative;
+  }
+}
+
+

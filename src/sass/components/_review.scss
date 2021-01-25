@@ -1,24 +1,116 @@
-.review {
+#google-reviews {
+  display: flex;
+  flex-wrap: wrap;
+  /*display: grid;*/
+  /*grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));*/
+
+  h3 {
+    display: none;
+  }
+}
+
+.review-text {
+  line-height: 1.55;
+  text-align: left;
+  max-width: 39em;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+.review-meta, .review-stars {
+  text-align: center;
+  font-size: 115%;
+}
+
+.review-author {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.review-item-long {
   width: 75%;
-  margin: 0 auto;
+  margin: 1rem auto;
   box-shadow: 0 3rem 6rem rgba($color-black, .1);
   background-color: rgba($color-white, .6);
   border-radius: 3px;
-  padding: 3rem;
-  padding-left: 3rem;
+  padding: 1rem;
   font-size: $default-font-size;
-  //transform: skewX(-12deg);
+  transition: transform .2s;
 
-  &__img {
-    width: 15rem;
-    height: 2.5rem;
-    overflow: hidden;
-    object-fit: cover;
-    margin-top: 1rem;
-    margin-left: -4.5rem;
-  }
-
-  &__text {
-    text-align: left;
+  &:hover {
+    transform: scale(1.05);
   }
 }
+
+@media ( max-width:1200px) {
+  .review-item-long {
+    flex: 1 1 90%;
+  }
+}
+
+@media ( max-width:450px) {
+  .review-item-long {
+    flex: 1 1 90%;
+  }
+}
+
+.review-stars ul {
+  display: inline-block;
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+.review-stars ul li {
+  float: left;
+  list-style: none !important;
+  margin-right: 1px;
+  line-height: 1;
+}
+
+.review-stars ul li i {
+  //color: #eb6e00;
+  color: $color-red;
+  font-size: 1.5rem;
+  font-style: normal;
+}
+
+.review-stars ul li i.inactive {
+  color: #c6c6c6;
+}
+
+.star:after {
+  content: "\2605";
+}
+
+//.review {
+//  width: 75%;
+//  margin: 0 auto;
+//  box-shadow: 0 3rem 6rem rgba($color-black, .1);
+//  background-color: rgba($color-white, .6);
+//  border-radius: 3px;
+//  padding: 3rem;
+//  padding-left: 3rem;
+//  font-size: $default-font-size;
+//  //transform: skewX(-12deg);
+//
+
+//
+//  &__text {
+//    text-align: left;
+//  }
+//}
+
+@media ( max-width:1200px) {
+  .review-item {
+    flex: 1 1 50%;
+  }
+}
+
+@media ( max-width:450px) {
+  .review-item {
+    flex: 1 1 90%;
+  }
+}
+
+

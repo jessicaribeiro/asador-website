@@ -7,7 +7,8 @@ import SectionMenu from "./components/SectionMenu";
 import ArrowDown from "./components/ArrowDown";
 import SectionReviews from "./components/SectionReviews";
 import googlePlaces from 'google-maps-reviews';
-import style from 'google-maps-reviews/google-maps-reviews.css';
+import SectionFooter from "./components/SectionFooter";
+// import style from 'google-maps-reviews/google-maps-reviews.css';
 
 
 require('dotenv').config();
@@ -48,8 +49,10 @@ function App({t}) {
             <ArrowDown color="white" section="menu"/>
             <main>
                 <SectionMenu/>
-                <ArrowDown color="red"/>
+                <ArrowDown color="red" section="reviews"/>
                 <SectionReviews/>
+
+                <SectionFooter/>
 
 
             </main>

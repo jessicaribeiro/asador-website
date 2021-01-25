@@ -1,7 +1,7 @@
 {
   "menu": "Menú",
   "reviews": "Opiniones",
-  "contact_and_schedule": "Contacto y Horário",
+  "schedule": "Horário",
   "address": "Localización",
   "book_table": "Reservar mesa",
   "special_menu": "Menú Especial",
@@ -16,5 +16,7 @@
   "grilled_veal": "Ternera asado",
   "variety_of_desserts": "Postres variados",
   "coffee_and_liqueur": "Café y Chupito",
-  "clients_reviews": "Opiniones de nuestros clientes"
+  "clients_reviews": "Opiniones de nuestros clientes",
+  "see_more_reviews": "Ver más opiniones"
+
 }
