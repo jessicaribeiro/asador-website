@@ -1,0 +1,31 @@
+.schedule {
+
+  &__content {
+    padding: 0 5rem;
+  }
+
+  &__title {
+    position: relative;
+    padding-top: 2.1rem;
+  }
+
+  &__hours {
+    font-size: 1.4rem;
+    font-family: Lato;
+  }
+
+}
+
+.address {
+
+  &__title {
+    position: relative;
+    padding-top: 0.5rem;
+  }
+
+  &__details {
+    font-size: 1.2rem;
+    font-family: Lato;
+  }
+
+}

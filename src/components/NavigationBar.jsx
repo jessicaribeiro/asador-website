@@ -20,8 +20,7 @@ function NavigationBar({t, changeLanguage}) {
                                 {/*TODO colocar a apontar para as seccoes certas*/}
                                 <NavigationBarEntry section="menu" label='menu'/>
                                 <NavigationBarEntry section="reviews" label='reviews'/>
-                                <NavigationBarEntry section="schedule" label='schedule'/>
-                                <NavigationBarEntry section="address" label='address'/>
+                                <NavigationBarEntry section="schedule_and_location" label='schedule_and_location'/>
                                 <NavigationBarEntry section="book_table" label='book_table' focus/>
                             </ul>
                         </nav>

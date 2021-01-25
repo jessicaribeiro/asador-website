@@ -1,7 +1,8 @@
 {
   "menu": "Menu",
   "reviews": "Reviews",
-  "schedule": "Horário",
+  "schedule_and_location": "Schedule and Location",
+  "schedule": "Working Hours",
   "address": "Address",
   "book_table": "Book a table",
   "special_menu": "Special Menu",
@@ -17,5 +18,6 @@
   "variety_of_desserts": "Variety of desserts",
   "coffee_and_liqueur": "Coffee & Liqueur",
   "clients_reviews": "Clients' Reviews",
-  "see_more_reviews": "See more reviews"
+  "see_more_reviews": "See more reviews",
+  "hours": "Everydays 9:00h – 22:00h"
 }

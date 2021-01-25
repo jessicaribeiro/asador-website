@@ -1,6 +1,7 @@
 {
   "menu": "Menu",
   "reviews": "Opiniões",
+  "schedule_and_location": "Horário e Localização",
   "schedule": "Horário",
   "address": "Localização",
   "book_table": "Reservar mesa",
@@ -17,5 +18,6 @@
   "variety_of_desserts": "Variedade de sobremesas",
   "coffee_and_liqueur": "Café e Digestivo",
   "clients_reviews": "Opiniões dos nossos clientes",
-  "see_more_reviews": "Ver mais opiniões"
+  "see_more_reviews": "Ver mais opiniões",
+  "hours": "Todos os dias 9:00h – 22:00h"
 }

@@ -13,3 +13,24 @@
 .section-reviews {
   padding: 3rem 0 4rem 0;
 }
+
+.section-schedule {
+  position: relative;
+  background-color: $color-grey-light-1;
+  padding: 3rem 0 4rem 0;
+
+  &__contents {
+    width: 1256px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+

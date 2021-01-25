@@ -13,7 +13,6 @@ function SectionReviews({t}) {
     }, []);
 
     return (
-
         <section id="reviews" className="section-reviews">
 
             <div className="u-center-text u-margin-bottom-extra-small">

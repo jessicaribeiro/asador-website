@@ -8,6 +8,7 @@ import ArrowDown from "./components/ArrowDown";
 import SectionReviews from "./components/SectionReviews";
 import googlePlaces from 'google-maps-reviews';
 import SectionFooter from "./components/SectionFooter";
+import SectionSchedule from "./components/SectionSchedule";
 // import style from 'google-maps-reviews/google-maps-reviews.css';
 
 
@@ -51,10 +52,8 @@ function App({t}) {
                 <SectionMenu/>
                 <ArrowDown color="red" section="reviews"/>
                 <SectionReviews/>
-
+                <SectionSchedule/>
                 <SectionFooter/>
-
-
             </main>
 
         </div>

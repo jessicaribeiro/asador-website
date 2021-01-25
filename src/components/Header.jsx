@@ -21,9 +21,6 @@ function Header({changeLanguage}) {
                          className="header__logo"/>
                 </div>
 
-                {/*<div className="arrow bounce">*/}
-                {/*    <FaAngleDown className="arrow-icon"/>*/}
-                {/*</div>*/}
             </header>
 
     )

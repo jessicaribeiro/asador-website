@@ -34,8 +34,8 @@ function LanguageSelector({changeLanguage}) {
 
     const languages = [
         {code: 'en', name: 'English'},
-        {code: 'es', name: 'Spanish'},
-        {code: 'pt', name: 'Portuguese'}
+        {code: 'es', name: 'Español'},
+        {code: 'pt', name: 'Português'}
     ];
 
     const options = languages.map(lang => {
