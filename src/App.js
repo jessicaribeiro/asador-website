@@ -5,8 +5,15 @@ import './sass/App.scss';
 import Header from "./components/Header";
 import SectionMenu from "./components/SectionMenu";
 import ArrowDown from "./components/ArrowDown";
+import SectionReviews from "./components/SectionReviews";
+import googlePlaces from 'google-maps-reviews';
+import style from 'google-maps-reviews/google-maps-reviews.css';
+
+
+require('dotenv').config();
 
 function App({t}) {
+
     const handleScroll = (event) => {
         if (window.scrollY > 500) {
             document.querySelector(".navbar").className = "navbar scroll";
@@ -40,8 +47,10 @@ function App({t}) {
             <Header changeLanguage={changeLanguage}/>
             <ArrowDown color="white" section="menu"/>
             <main>
-                <SectionMenu />
-                <ArrowDown color="red" />
+                <SectionMenu/>
+                <ArrowDown color="red"/>
+                <SectionReviews/>
+
 
             </main>
 

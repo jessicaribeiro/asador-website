@@ -1,0 +1,24 @@
+.review {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba($color-black, .1);
+  background-color: rgba($color-white, .6);
+  border-radius: 3px;
+  padding: 3rem;
+  padding-left: 3rem;
+  font-size: $default-font-size;
+  //transform: skewX(-12deg);
+
+  &__img {
+    width: 15rem;
+    height: 2.5rem;
+    overflow: hidden;
+    object-fit: cover;
+    margin-top: 1rem;
+    margin-left: -4.5rem;
+  }
+
+  &__text {
+    text-align: left;
+  }
+}
