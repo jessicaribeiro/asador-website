@@ -1,7 +1,7 @@
 import React from 'react';
 import place from "../img/place.jpg";
-import {FaRegClock} from "react-icons/fa";
 import {withNamespaces} from "react-i18next";
+import WorkingHours from "./WorkingHours";
 
 
 function SectionSchedule({t}) {
@@ -25,17 +25,7 @@ function SectionSchedule({t}) {
                     </div>
 
                     <div className="col-1-of-2">
-                        <div className="schedule__content">
-                            <div className="schedule__title">
-                                <h2>{t("schedule")}</h2>
-                            </div>
-                            <div className="schedule__hours">
-                                <p>
-                                    <FaRegClock className="icon" style={{paddingRight: 5, paddingBottom: 5}}/>
-                                    Todos los dias 9:00h – 22:00h
-                                </p>
-                            </div>
-                        </div>
+                        <WorkingHours/>
 
                         <hr className="line-separator"/>
 
