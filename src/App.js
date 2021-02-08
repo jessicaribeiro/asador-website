@@ -8,7 +8,7 @@ import ArrowDown from "./components/ArrowDown";
 import SectionReviews from "./components/SectionReviews";
 import googlePlaces from 'google-maps-reviews';
 import SectionFooter from "./components/SectionFooter";
-import SectionSchedule from "./components/SectionSchedule";
+import SectionSchedule from "./components/SectionLocalAndWorkingHours";
 // import style from 'google-maps-reviews/google-maps-reviews.css';
 
 

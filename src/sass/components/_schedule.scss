@@ -1,3 +1,5 @@
+@import 'src/sass/abstracts/variables'; // TODO - ver como chamar globalmente este mixin
+
 .schedule {
 
   &__content {
@@ -6,12 +8,17 @@
 
   &__title {
     position: relative;
-    padding-top: 2.1rem;
   }
 
   &__hours {
     font-size: 1.4rem;
     font-family: Lato;
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: left;
+    }
   }
 
 }
@@ -26,6 +33,17 @@
   &__details {
     font-size: 1.2rem;
     font-family: Lato;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-grey-dark;
+    font-weight: bold;
+
+    &:hover {
+      color: $color-red-dark;
+    }
+
   }
 
 }
