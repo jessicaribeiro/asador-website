@@ -7,7 +7,6 @@ function NavigationBarEntry({t, section, label, focus, popup}) {
         return document.getElementById(section).scrollIntoView();
     };
     const popupOrCall = () => {
-        console.log('show');
         const popup = document.getElementById("bookPopup");
         popup.classList.toggle("show");
     };

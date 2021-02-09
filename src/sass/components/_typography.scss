@@ -88,8 +88,14 @@ body {
     font-family: 'Lato';
     font-size: $medium-font-size;
     font-weight: 400;
-    margin-bottom: 1rem;
     margin-top: 0;
+    margin-bottom: 0;
+
+    &-small {
+      font-size: $extra-small-font-size;
+      margin: 0;
+      font-weight: 100;
+    }
   }
 }
 

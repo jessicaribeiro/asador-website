@@ -12,13 +12,16 @@ import DishImage from "./DishImage";
 function SectionMenu({t}) {
     return (
         <section className="section-menu" id="menu">
-            <div className="u-center-text u-margin-bottom-medium">
+            <div className="u-center-text u-margin-bottom-small">
                 <h2 className="heading-secondary">
                     {t('special_menu')}
                 </h2>
                 <h3 className="heading-tertiary__digits">
                     {t('special_menu_price')}
                 </h3>
+                <h5 className="heading-tertiary__digits-small">
+                    {t('special_menu_price_iva')}
+                </h5>
             </div>
 
 
