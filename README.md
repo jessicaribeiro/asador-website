@@ -26,5 +26,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FKWB9FfzNHtBYmCzQdL0oXH%2FSample-File%3Fnode-id%3D0%253A498" allowfullscreen></iframe>
 
+https://www.figma.com/file/KWB9FfzNHtBYmCzQdL0oXH/Sample-File?node-id=0%3A498
