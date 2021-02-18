@@ -1,5 +1,20 @@
 # Asador Carpio de Azaba Website
 
+## Prototypes
+High Fidelity Prototypes designed in AdobeXd
+
+### Website
+
+![alt Web](https://github.com/jessicaribeiro/asador-website/blob/main/prototype/Website%20Prototype.png "Website Prototype")
+
+### Mobile
+
+![alt Mobile](https://github.com/jessicaribeiro/asador-website/blob/main/prototype/Mobile%20Prototype%20.png "Mobile Prototype")
+
+
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -25,13 +40,6 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Prototypes
-High Fidelity Prototypes designed in AdobeXd
-
-![alt Web](https://github.com/jessicaribeiro/asador-website/blob/main/prototype/Website%20Prototype.png "Website Prototype")
-
-![alt Mobile](https://github.com/jessicaribeiro/asador-website/blob/main/prototype/Mobile%20Prototype%20.png "Mobile Prototype")
 
 
 
