@@ -29,7 +29,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Prototypes
 High Fidelity Prototypes designed in AdobeXd
 
-![alt Web](https://github.com/jessicaribeiro/asador-website/blob/main/prototype/Website%20prototype.png "Website Prototype")
+![alt Web](https://github.com/jessicaribeiro/asador-website/blob/main/prototype/Website%20Prototype.png "Website Prototype")
+
+![alt Mobile](https://github.com/jessicaribeiro/asador-website/blob/main/prototype/Mobile%20Prototype%20.png "Mobile Prototype")
+
 
 
 
