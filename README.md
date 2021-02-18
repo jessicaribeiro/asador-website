@@ -27,4 +27,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
+High Fidelity Prototype designed in AdobeXd
+
+![alt text](https://github.com/jessicaribeiro/asador-website/blob/main/prototype/Website%20prototype.png "Website Prototype")
+
+[![Demo Prototype](https://github.com/jessicaribeiro/asador-website/blob/main/prototype/cover.png)](https://github.com/jessicaribeiro/asador-website/blob/main/prototype/Web%20Prototype.mov)
 
