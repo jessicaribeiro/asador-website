@@ -31,8 +31,6 @@ High Fidelity Prototypes designed in AdobeXd
 
 ![alt Web](https://github.com/jessicaribeiro/asador-website/blob/main/prototype/Website%20prototype.png "Website Prototype")
 
-[![See Functional Mobile Prototype here](https://github.com/jessicaribeiro/asador-website/blob/main/prototype/cover%20mobile.png)](https://j.gifs.com/q7GonG.gif)
-
 
 
 
